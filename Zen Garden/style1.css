@@ -1,0 +1,36 @@
+h1 {
+    color: #471A4D;
+    background-color: #D4AB90;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2{
+    color: #10115C;
+    background-color: #D4AB90;
+    font-weight: bold;
+    font-family: 'Kabel', sans-serif;
+}
+
+h3{
+    background-color: #D4AB90;
+    font-style: italic;
+}
+
+div{
+    background-color: #F0D0BB;
+    text-align: center;
+
+
+}
+
+body {
+    background-image: url('pattern.jpg');
+    background-size: 100%;
+    
+}
+
+aside {border: solid;
+        border-color: #10115C;
+        
+}

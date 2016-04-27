@@ -1,0 +1,43 @@
+h1 {
+    color: #471A4D;
+    background-image: url('flowergarden.jpg');
+    background-size: cover;
+    font-style: italic;
+    font-size: 120px;
+    text-align: center;
+    }
+
+h2{
+    color: #10115C;
+    background-color: #A48BB5;
+    font-weight: bold;
+    font-family: 'Lucida Handwriting', sans-serif;
+    font-size: 40px;
+    }
+
+h3{
+    background-color: #E0D3E8;
+    text-transform: uppercase;
+    font-family: 'Lucida Handwriting', sans-serif;
+    }
+
+div{
+    background-color: #CFC1D9;
+    text-align: left;
+    }
+
+body {
+    background: linear-gradient(to left, #B1D190, #E8DF9B);
+    font-weight: bold;
+    }
+
+aside {border: solid;
+        border-color: #10115C;
+        text-align: center;
+    }
+
+p {
+    line-height: 95%;
+    font-weight: 300;
+    }
+ 
