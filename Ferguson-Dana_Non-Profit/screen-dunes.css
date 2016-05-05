@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;		/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+a {
+	color:#369;
+}
+
+h1 span {
+    font-style: italic;
+    font-size: 30pt;
+        }
+
+h1 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+    font-family: "Trump Mediaeval", Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 45pt;
+    text-align: center;
+}
+h2 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+	font-family: "Calibri", Arial, Sans-Serif;
+	
+}
+h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+	font-family: "Calibri", Arial, Sans-Serif;
+}
+
+h4 {
+    
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+    font-family: "Calibri", Arial, Sans-Serif;
+}
+
+li {
+    font-family: "Calibri", Arial, Sans-Serif;
+}
+img {
+	margin:10px 0 5px;
+    height: 225px;
+    width: auto;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+    background-image: url("newtitle.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    
+}
+#header {
+	border-bottom:1px solid #000;
+}
+#header p {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+nav ul {
+    clear:both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav ul li {
+	float: left;
+    width: 25%
+}
+
+nav ul li a {
+	 display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+	background:#000;
+	color:#fff;
+}
+#nav ul li a.active,
+#nav ul li a.active:hover {
+	color:#fff;
+	background:#000;
+	font-weight:bold;
+}
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead 
+					only padding top and bottom is included here, make it whatever value you need */
+	overflow:hidden;
+    
+}
+/* 3 Column settings */
+.threecol {
+	background:#EBEADD;
+    /* right column background colour */
+}
+.threecol .colmid {
+	right:33%;			/* width of the right column */
+	background:#EBEADD;		/* center column background colour */
+}
+.threecol .colleft {
+	right:30%;			/* width of the middle column */
+	background:#EBEADD;	/* left column background colour */
+}
+.threecol .col1 {
+	width:24%;			/* width of center column content (column width minus padding on either side) */
+	left:98%;
+    /* 100% plus left padding of center column */
+}
+.threecol .col2 {
+	width:30%;			/* Width of left column content (column width minus padding on either side) */
+	left:42%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+}
+.threecol .col3 {
+	width:29%;			/* Width of right column content (column width minus padding on either side) */
+	left:73%;
+    border-left:3px solid #000;
+    padding-left: 50px;
+    
+    
+    /* Please make note of the brackets here:
+					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+    padding-bottom: 20px;
+    font-family: "Calibri", Arial, Sans-Serif;
+    font-size: 12pt;
+    background-color: #333;
+    color:#fff;
+    padding-left: 35px;
+    
+}
+
+/* === CSS GRID === */
+
+.one-half {
+    width: 50%;
+}
+
+.column {
+    float: left;
+}
+#social-media {
+    text-align: right;
+}
+
+section img {
+    height: 40px;
+    padding-right: 10px;
+
+}
+
+#bigimg {
+    height: 600px;
+    width: 475px
+}
